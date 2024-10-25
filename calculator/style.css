@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.calculator {
+    width: 320px;
+    padding: 20px;
+    background-color: #050c12; /* Blue background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.calculator-screen {
+    width: 94%;
+    height: 80px;
+    background-color: #e0f7fa; /* Light blue screen */
+    color: #000;
+    text-align: right;
+    font-size: 2.5rem;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+}
+
+.calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+
+button {
+    height: 60px;
+    font-size: 1.5rem;
+    background-color: #64b5f6; /* Light blue buttons */
+    color: white;
+    border: none;
+    border-radius: 50%; /* Circular buttons */
+    transition: background-color 0.2s ease-in;
+}
+
+button:hover {
+    background-color: #42a5f5; /* Darker blue on hover */
+}
+
+.operator {
+    background-color: #1e88e5; /* Dark blue for operators */
+}
+
+.operator:hover {
+    background-color: #1565c0; /* Even darker blue for operators on hover */
+}
+
+.all-clear {
+    background-color: #ef5350; /* Red for AC button */
+}
+
+.all-clear:hover {
+    background-color: #e53935; /* Darker red for AC button on hover */
+}
+
+.equal-sign {
+    background-color: #43a047; /* Green for equal sign */
+    grid-column: span 2;
+}
+
+.equal-sign:hover {
+    background-color: #388e3c; /* Darker green for equal sign on hover */
+}
+
+button:focus {
+    outline: none;
+}

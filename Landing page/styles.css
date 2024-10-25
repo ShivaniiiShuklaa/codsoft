@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #FF8A65;
+    padding: 15px 30px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(248, 246, 246);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #FF7043;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.consult-btn, .buy-btn {
+    background-color: #FF5722;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('a-group-of-employees-on-laptops-at-their-annual-planning-meeting-listening-to-a-man-showing-stats-on-a-whiteboard-1024x683.jpg');
+    background-size: cover;
+    padding: 100px 80px;
+    text-align: center;
+    color: rgb(221, 114, 72);
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 120px;
+}
+
+.hero-buttons a {
+    background-color: #FF5722;
+    color: white;
+    padding: 15px 25px;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 30px;
+}
+
+.service {
+    text-align: center;
+}
+
+.service img {
+    width: 100px;
+    height: 70px;
+}
+
+.about {
+    display: flex;
+    padding: 50px 30px;
+}
+
+.about-content {
+    width: 60%;
+}
+
+.about-image img {
+    width: 100%;
+}
